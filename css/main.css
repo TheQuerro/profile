@@ -1,0 +1,42 @@
+html,body{
+    background-color: #242424;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.slice{
+    position: absolute;
+    background-color: #242424;
+    left: 0;
+    top: 225px;
+    right: 0;
+    bottom: auto;
+    height: 100%;
+    transform: skew(-7deg,0deg) rotate(-6.5deg);
+}
+.bgImg{
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../public/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.wrapper{
+    position: relative;
+    background-color: transparent;
+    background-image: none;
+    width: 500px;
+    margin: -340px auto 0 auto;
+    height: auto;
+}
+.box{
+    background-color: #333333;
+    box-shadow: 0 18px 45px 0 rgb(0 0 0 / 13%);
+    align-items: center;
+    height: 250px;
+}
