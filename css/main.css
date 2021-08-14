@@ -33,15 +33,16 @@ h1,h2,h3,h4,h5,h6,p,a{
     background-color: transparent;
     background-image: none;
     width: 1000px;
-    margin: -640px auto 0 auto;
+    margin: -620px auto 0 auto;
     height: auto;
 }
-.box{
+.profile-section{
     background-color: #333333;
     box-shadow: 0 18px 45px 0 rgb(0 0 0 / 13%);
     align-items: center;
     text-align: center;
     height: auto;
+    margin-bottom: 50px;
 }
 .profile-top{
     padding-bottom: 10px;
@@ -89,4 +90,38 @@ h1,h2,h3,h4,h5,h6,p,a{
     font-family: Graphik,sans-serif;
     color: #ffffff;
     font-weight: 400;
+}
+.link-section{
+    height: 350px;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.link-item-full{
+    width: 100%;
+}
+.link-item{
+    background-color: #333333;
+    margin-bottom: 20px;
+    height: auto;
+    padding-left: 70px;
+}
+.link-icon-float{
+    position: absolute;
+    left: -10px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+.link-button{
+    align-items: center;
+    display: flex;
+    height: 80px;
+    box-shadow: 0 14px 30px -5px rgb(0 0 0 / 13%);
+    text-decoration: none;
+}
+.link-button-text{
+    color: white;
+    font-size: 18px;
 }
