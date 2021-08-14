@@ -66,6 +66,8 @@ h1,h2,h3,h4,h5,h6,p,a{
 }
 .profile-text{
     font-size: 40px;
+    color: #F27807;
+    text-shadow: 3px 3px rgb(0 0 0 / 21%);
     font-weight: 500;
 }
 .profile-description{
@@ -84,13 +86,20 @@ h1,h2,h3,h4,h5,h6,p,a{
     color: #ffffff;
     display: flex;
 }
-.email-button:hover{
-    border-color: black;
+.email-button:hover {
+    border-color: #F27807;
+}
+.email-button:hover .email-button-text{
+    color: #F27807;
+}
+.email-button:hover .email-image{
+    transform: translateY(-3px);
 }
 .email-image{
     height: 18px;
     margin-right: 10px;
     filter: invert(100%);
+    transition: 150ms;
 }
 .email-button-text{
     font-family: Graphik,sans-serif;
